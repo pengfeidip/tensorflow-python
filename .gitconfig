@@ -1,0 +1,15 @@
+[uer]
+	name = pengfei
+	email = pengfeidip@gamil.com
+[user]
+	name = pengfeidip
+	email = pengfeidip@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[gui]
+	recentrepo = D:/Matlab2016Code/10096DB_reliablePatch/reliablePatch_Fourier-Mellin_polar
+[core]
+	autocrlf = false
